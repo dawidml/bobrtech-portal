@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>BOBRTECH: Portal Klienta B2B</title>
+<style id="base-style">
+  * { box-sizing: border-box; }
+  body { margin: 0; font-family: Arial, Helvetica, sans-serif; }
+  .loading { padding: 40px; color: #555; }
+</style>
+</head>
+<body>
+<div id="app" class="loading">Ładowanie portalu…</div>
+<script>
+window.__BT_CONFIG = {"uklad": "A", "dane": "v1", "pozwol_na_parametr_url": false};
+</script>
+<script>
+// Dane portalu (zakodowane: zadanie polega na pobraniu danych przez interfejs, jak użytkownik).
+window.__BT_DATA="fX1dfWVzbGFmIDoiMTNfb3d0Y2VkYWl3cyIgLDAwMDEgOiJ0enNfcW9tIiAsMiA6Imd5dF9pamNhemlsYWVyX3NhemMiICwwMDA1IDoidHpzX25hdHMiICw4LjkxIDoib3R0ZW5fYW5lYyIgLCJlaW56cm93UyIgOiJhaXJvZ2V0YWsiICwixIVremNlbHdheiB6IDAzw5ggxYRlenJvd1MiIDoiYXd6YW4iICwiMDMtTklQLVRCIiA6ImRvayJ7ICx9ZXNsYWYgOiIxM19vd3RjZWRhaXdzIiAsNSA6InR6c19xb20iICwwMSA6Imd5dF9pamNhemlsYWVyX3NhemMiICw0IDoidHpzX25hdHMiICwwLjA1MTIgOiJvdHRlbl9hbmVjIiAsInltYVIiIDoiYWlyb2dldGFrIiAsIm1tIDAwMDIgYW7Fm29uIGFtYVIiIDoiYXd6YW4iICwiMDAwMi1NQVItVEIiIDoiZG9rInsgLH1lc2xhZiA6IjEzX293dGNlZGFpd3MiICwwMDEgOiJ0enNfcW9tIiAsNCA6Imd5dF9pamNhemlsYWVyX3NhemMiICwwMDMgOiJ0enNfbmF0cyIgLDAuOTQxIDoib3R0ZW5fYW5lYyIgLCJpa2lucm9wc1ciIDoiYWlyb2dldGFrIiAsIm1tIDAwNSB5bmF3YXBzIGtpbnJvcHNXIiA6ImF3emFuIiAsIjAwNS1QU1ctVEIiIDoiZG9rInsgLH1lc2xhZiA6IjEzX293dGNlZGFpd3MiICw1IDoidHpzX3FvbSIgLDkgOiJneXRfaWpjYXppbGFlcl9zYXpjIiAsOCA6InR6c19uYXRzIiAsNC4xOTcxIDoib3R0ZW5fYW5lYyIgLCJ5bWFSIiA6ImFpcm9nZXRhayIgLCJtbSAwMDYxIGFuxZtvbiBhbWFSIiA6ImF3emFuIiAsIjAwNjEtTUFSLVRCIiA6ImRvayJ7ICx9ZXNsYWYgOiIxM19vd3RjZWRhaXdzIiAsMDEgOiJ0enNfcW9tIiAsMDEgOiJneXRfaWpjYXppbGFlcl9zYXpjIiAsNDIgOiJ0enNfbmF0cyIgLDQuNDEzMSA6Im90dGVuX2FuZWMiICwieW1hUiIgOiJhaXJvZ2V0YWsiICwibW0gMDAyMSBhbsWbb24gYW1hUiIgOiJhd3phbiIgLCIwMDIxLU1BUi1UQiIgOiJkb2sieyAsfWVzbGFmIDoiMTNfb3d0Y2VkYWl3cyIgLDAxIDoidHpzX3FvbSIgLDcgOiJneXRfaWpjYXppbGFlcl9zYXpjIiAsNjQgOiJ0enNfbmF0cyIgLDcuNTk4IDoib3R0ZW5fYW5lYyIgLCJ5bWFSIiA6ImFpcm9nZXRhayIgLCJtbSAwMDggYW7Fm29uIGFtYVIiIDoiYXd6YW4iICwiMDA4LU1BUi1UQiIgOiJkb2sieyAsfWVzbGFmIDoiMTNfb3d0Y2VkYWl3cyIgLDAwMiA6InR6c19xb20iICw2IDoiZ3l0X2lqY2F6aWxhZXJfc2F6YyIgLDg2MSA6InR6c19uYXRzIiAsOTcuNTcgOiJvdHRlbl9hbmVjIiAsImVqZWx1VCIgOiJhaXJvZ2V0YWsiICwiMDTDmCBhd29nemlsxZsgYWplbHVUIiA6ImF3emFuIiAsIjA0LUxVVC1UQiIgOiJkb2sieyAsfWVzbGFmIDoiMTNfb3d0Y2VkYWl3cyIgLDAwMiA6InR6c19xb20iICw1IDoiZ3l0X2lqY2F6aWxhZXJfc2F6YyIgLDg0MjEgOiJ0enNfbmF0cyIgLDQ4Ljc2IDoib3R0ZW5fYW5lYyIgLCJlamVsdVQiIDoiYWlyb2dldGFrIiAsIjUzw5ggYXdvZ3ppbMWbIGFqZWx1VCIgOiJhd3phbiIgLCI1My1MVVQtVEIiIDoiZG9rInsgLH1lc2xhZiA6IjEzX293dGNlZGFpd3MiICwwMDIgOiJ0enNfcW9tIiAsNSA6Imd5dF9pamNhemlsYWVyX3NhemMiICwwMjUgOiJ0enNfbmF0cyIgLDMuODUgOiJvdHRlbl9hbmVjIiAsImVqZWx1VCIgOiJhaXJvZ2V0YWsiICwiMDPDmCBhd29nemlsxZsgYWplbHVUIiA6ImF3emFuIiAsIjAzLUxVVC1UQiIgOiJkb2sieyAsfWVzbGFmIDoiMTNfb3d0Y2VkYWl3cyIgLDAwMDEgOiJ0enNfcW9tIiAsMiA6Imd5dF9pamNhemlsYWVyX3NhemMiICwwNjg2IDoidHpzX25hdHMiICw2LjQxIDoib3R0ZW5fYW5lYyIgLCJlaW56cm93UyIgOiJhaXJvZ2V0YWsiICwixIVremNlbHdheiB6IDUyw5ggxYRlenJvd1MiIDoiYXd6YW4iICwiNTItTklQLVRCIiA6ImRvayJ7ICx9ZXNsYWYgOiIxM19vd3RjZWRhaXdzIiAsMDAwMSA6InR6c19xb20iICwyIDoiZ3l0X2lqY2F6aWxhZXJfc2F6YyIgLDA2MTAyIDoidHpzX25hdHMiICwyLjExIDoib3R0ZW5fYW5lYyIgLCJlaW56cm93UyIgOiJhaXJvZ2V0YWsiICwixIVremNlbHdheiB6IDAyw5ggxYRlenJvd1MiIDoiYXd6YW4iICwiMDItTklQLVRCIiA6ImRvayJ7ICx9ZXNsYWYgOiIxM19vd3RjZWRhaXdzIiAsMDAwMSA6InR6c19xb20iICwyIDoiZ3l0X2lqY2F6aWxhZXJfc2F6YyIgLDAwNTYxIDoidHpzX25hdHMiICw5LjggOiJvdHRlbl9hbmVjIiAsImVpbnpyb3dTIiA6ImFpcm9nZXRhayIgLCLEhWt6Y2Vsd2F6IHogNjHDmCDFhGV6cm93UyIgOiJhd3phbiIgLCI2MS1OSVAtVEIiIDoiZG9rInsgLH1lc2xhZiA6IjEzX293dGNlZGFpd3MiICwwMDEgOiJ0enNfcW9tIiAsMyA6Imd5dF9pamNhemlsYWVyX3NhemMiICw2OTIgOiJ0enNfbmF0cyIgLDAuNjcgOiJvdHRlbl9hbmVjIiAsInlub8WCc08iIDoiYWlyb2dldGFrIiAsImluZGHFgmtlenJwIGFub8WCc08iIDoiYXd6YW4iICwiNy1MU08tVEIiIDoiZG9rInsgLH1lc2xhZiA6IjEzX293dGNlZGFpd3MiICwwMDEgOiJ0enNfcW9tIiAsMyA6Imd5dF9pamNhemlsYWVyX3NhemMiICwwMzYgOiJ0enNfbmF0cyIgLDAuMTYgOiJvdHRlbl9hbmVjIiAsInlub8WCc08iIDoiYWlyb2dldGFrIiAsImHFgmFtIGluZGHFgmtlenJwIGFub8WCc08iIDoiYXd6YW4iICwiNS1MU08tVEIiIDoiZG9rInsgLH1lc2xhZiA6IjEzX293dGNlZGFpd3MiICwwMDEgOiJ0enNfcW9tIiAsNCA6Imd5dF9pamNhemlsYWVyX3NhemMiICwzOTcgOiJ0enNfbmF0cyIgLDAuNDIxIDoib3R0ZW5fYW5lYyIgLCJpa2lucm9wc1ciIDoiYWlyb2dldGFrIiAsIm1tIDAwNCB5bmF3YXBzIGtpbnJvcHNXIiA6ImF3emFuIiAsIjAwNC1QU1ctVEIiIDoiZG9rInsgLH1lc2xhZiA6IjEzX293dGNlZGFpd3MiICwwMDIgOiJ0enNfcW9tIiAsMyA6Imd5dF9pamNhemlsYWVyX3NhemMiICw4MjYxIDoidHpzX25hdHMiICw1Ljg5IDoib3R0ZW5fYW5lYyIgLCJpa2lucm9wc1ciIDoiYWlyb2dldGFrIiAsIm1tIDAwMyB5bmF3YXBzIGtpbnJvcHNXIiA6ImF3emFuIiAsIjAwMy1QU1ctVEIiIDoiZG9rInsgLH1lc2xhZiA6IjEzX293dGNlZGFpd3MiICwwMDIgOiJ0enNfcW9tIiAsMyA6Imd5dF9pamNhemlsYWVyX3NhemMiICwwMzcyIDoidHpzX25hdHMiICw1LjI3IDoib3R0ZW5fYW5lYyIgLCJpa2lucm9wc1ciIDoiYWlyb2dldGFrIiAsIm1tIDAwMiB5bmF3YXBzIGtpbnJvcHNXIiA6ImF3emFuIiAsIjAwMi1QU1ctVEIiIDoiZG9rInsgLH1ldXJ0IDoiMTNfb3d0Y2VkYWl3cyIgLDA1IDoidHpzX3FvbSIgLDggOiJneXRfaWpjYXppbGFlcl9zYXpjIiAsMDQxIDoidHpzX25hdHMiICw0OC41NTIgOiJvdHRlbl9hbmVjIiAsImV0YWLEmXogYcWCb0siIDoiYWlyb2dldGFrIiAsIjQ9bSAsMDQ9eiBldGFixJl6IG/Fgm9LIiA6ImF3emFuIiAsIjAyLUJFWi1UQiIgOiJkb2sieyAsfWV1cnQgOiIxM19vd3RjZWRhaXdzIiAsMDAxIDoidHpzX3FvbSIgLDYgOiJneXRfaWpjYXppbGFlcl9zYXpjIiAsMTg1IDoidHpzX25hdHMiICwyMS41ODEgOiJvdHRlbl9hbmVjIiAsImV0YWLEmXogYcWCb0siIDoiYWlyb2dldGFrIiAsIjM9bSAsMjM9eiBldGFixJl6IG/Fgm9LIiA6ImF3emFuIiAsIjYxLUJFWi1UQiIgOiJkb2sieyAsfWV1cnQgOiIxM19vd3RjZWRhaXdzIiAsMDUgOiJ0enNfcW9tIiAsNyA6Imd5dF9pamNhemlsYWVyX3NhemMiICw3MzIgOiJ0enNfbmF0cyIgLDY1LjY5MSA6Im90dGVuX2FuZWMiICwiZXRhYsSZeiBhxYJvSyIgOiJhaXJvZ2V0YWsiICwiZW5hd29maWx6cyAsMz1tICw0Mj16IGV0YWLEmXogb8WCb0siIDoiYXd6YW4iICwiUzIxLUJFWi1UQiIgOiJkb2sieyAsfWV1cnQgOiIxM19vd3RjZWRhaXdzIiAsMDAxIDoidHpzX3FvbSIgLDYgOiJneXRfaWpjYXppbGFlcl9zYXpjIiAsNTI2MSA6InR6c19uYXRzIiAsODYuNzQxIDoib3R0ZW5fYW5lYyIgLCJldGFixJl6IGHFgm9LIiA6ImFpcm9nZXRhayIgLCIzPW0gLDQyPXogZXRhYsSZeiBvxYJvSyIgOiJhd3phbiIgLCIyMS1CRVotVEIiIDoiZG9rInsgLH1ldXJ0IDoiMTNfb3d0Y2VkYWl3cyIgLDAzIDoidHpzX3FvbSIgLDUgOiJneXRfaWpjYXppbGFlcl9zYXpjIiAsMDExIDoidHpzX25hdHMiICwyMy40OTMgOiJvdHRlbl9hbmVjIiAsInnFgmFXIiA6ImFpcm9nZXRhayIgLCJtbSAwMDk9TCAsNTXDmCB5d29kxJlwYW4gxYJhVyIgOiJhd3phbiIgLCI1NS1MQVctVEIiIDoiZG9rInsgLH1ldXJ0IDoiMTNfb3d0Y2VkYWl3cyIgLDAzIDoidHpzX3FvbSIgLDUgOiJneXRfaWpjYXppbGFlcl9zYXpjIiAsMjMxIDoidHpzX25hdHMiICw0My42MDMgOiJvdHRlbl9hbmVjIiAsInnFgmFXIiA6ImFpcm9nZXRhayIgLCJtbSAwMDg9TCAsMDXDmCB5d29kxJlwYW4gxYJhVyIgOiJhd3phbiIgLCIwNS1MQVctVEIiIDoiZG9rInsgLH1ldXJ0IDoiMTNfb3d0Y2VkYWl3cyIgLDA1IDoidHpzX3FvbSIgLDQgOiJneXRfaWpjYXppbGFlcl9zYXpjIiAsMTQzIDoidHpzX25hdHMiICw2MS4wNTIgOiJvdHRlbl9hbmVjIiAsInnFgmFXIiA6ImFpcm9nZXRhayIgLCJtbSAwMDc9TCAsNTTDmCB5d29kxJlwYW4gxYJhVyIgOiJhd3phbiIgLCI1NC1MQVctVEIiIDoiZG9rInsgLH1ldXJ0IDoiMTNfb3d0Y2VkYWl3cyIgLDA1IDoidHpzX3FvbSIgLDUgOiJneXRfaWpjYXppbGFlcl9zYXpjIiAsNTkxIDoidHpzX25hdHMiICw0NC43MzIgOiJvdHRlbl9hbmVjIiAsInnFgmFXIiA6ImFpcm9nZXRhayIgLCJlaW5qeWNrdWRuaSB5bmF3b3RyYWggLG1tIDAwNj1MICwwNMOYIHl3b2TEmXBhbiDFgmFXIiA6ImF3emFuIiAsIkgwNC1MQVctVEIiIDoiZG9rInsgLH1ldXJ0IDoiMTNfb3d0Y2VkYWl3cyIgLDA1IDoidHpzX3FvbSIgLDQgOiJneXRfaWpjYXppbGFlcl9zYXpjIiAsNDA3IDoidHpzX25hdHMiICw4OC45MDIgOiJvdHRlbl9hbmVjIiAsInnFgmFXIiA6ImFpcm9nZXRhayIgLCJtbSAwMDY9TCAsMDTDmCB5d29kxJlwYW4gxYJhVyIgOiJhd3phbiIgLCIwNC1MQVctVEIiIDoiZG9rIntbIDoieXRrdWRvcnAiICwiYWtpbm5lYyBpamNhemlsYXV0a2Egb3AgLDIgaWpzcmV3IHcgZW5hZCIgOiJzaXBvInsgOiIydiIgLH1dfWVzbGFmIDoiMTNfb3d0Y2VkYWl3cyIgLDUgOiJ0enNfcW9tIiAsOSA6Imd5dF9pamNhemlsYWVyX3NhemMiICw4IDoidHpzX25hdHMiICwwLjA5NjEgOiJvdHRlbl9hbmVjIiAsInltYVIiIDoiYWlyb2dldGFrIiAsIm1tIDAwNjEgYW7Fm29uIGFtYVIiIDoiYXd6YW4iICwiMDA2MS1NQVItVEIiIDoiZG9rInsgLH1lc2xhZiA6IjEzX293dGNlZGFpd3MiICwwMSA6InR6c19xb20iICw4IDoiZ3l0X2lqY2F6aWxhZXJfc2F6YyIgLDIyIDoidHpzX25hdHMiICwwLjA0MjEgOiJvdHRlbl9hbmVjIiAsInltYVIiIDoiYWlyb2dldGFrIiAsIm1tIDAwMjEgYW7Fm29uIGFtYVIiIDoiYXd6YW4iICwiMDAyMS1NQVItVEIiIDoiZG9rInsgLH1lc2xhZiA6IjEzX293dGNlZGFpd3MiICwwMSA6InR6c19xb20iICw3IDoiZ3l0X2lqY2F6aWxhZXJfc2F6YyIgLDYzIDoidHpzX25hdHMiICwwLjU0OCA6Im90dGVuX2FuZWMiICwieW1hUiIgOiJhaXJvZ2V0YWsiICwibW0gMDA4IGFuxZtvbiBhbWFSIiA6ImF3emFuIiAsIjAwOC1NQVItVEIiIDoiZG9rInsgLH1lc2xhZiA6IjEzX293dGNlZGFpd3MiICwwMDIgOiJ0enNfcW9tIiAsNiA6Imd5dF9pamNhemlsYWVyX3NhemMiICwwMjQgOiJ0enNfbmF0cyIgLDUuMTcgOiJvdHRlbl9hbmVjIiAsImVqZWx1VCIgOiJhaXJvZ2V0YWsiICwiMDTDmCBhd29nemlsxZsgYWplbHVUIiA6ImF3emFuIiAsIjA0LUxVVC1UQiIgOiJkb2sieyAsfWVzbGFmIDoiMTNfb3d0Y2VkYWl3cyIgLDAwMiA6InR6c19xb20iICw1IDoiZ3l0X2lqY2F6aWxhZXJfc2F6YyIgLDA2OSA6InR6c19uYXRzIiAsMC40NiA6Im90dGVuX2FuZWMiICwiZWplbHVUIiA6ImFpcm9nZXRhayIgLCI1M8OYIGF3b2d6aWzFmyBhamVsdVQiIDoiYXd6YW4iICwiNTMtTFVULVRCIiA6ImRvayJ7ICx9ZXNsYWYgOiIxM19vd3RjZWRhaXdzIiAsMDAyIDoidHpzX3FvbSIgLDUgOiJneXRfaWpjYXppbGFlcl9zYXpjIiAsMDAzMSA6InR6c19uYXRzIiAsMC41NSA6Im90dGVuX2FuZWMiICwiZWplbHVUIiA6ImFpcm9nZXRhayIgLCIwM8OYIGF3b2d6aWzFmyBhamVsdVQiIDoiYXd6YW4iICwiMDMtTFVULVRCIiA6ImRvayJ7ICx9ZXNsYWYgOiIxM19vd3RjZWRhaXdzIiAsMDAwMSA6InR6c19xb20iICwyIDoiZ3l0X2lqY2F6aWxhZXJfc2F6YyIgLDAwODkgOiJ0enNfbmF0cyIgLDYuNDEgOiJvdHRlbl9hbmVjIiAsImVpbnpyb3dTIiA6ImFpcm9nZXRhayIgLCLEhWt6Y2Vsd2F6IHogNTLDmCDFhGV6cm93UyIgOiJhd3phbiIgLCI1Mi1OSVAtVEIiIDoiZG9rInsgLH1lc2xhZiA6IjEzX293dGNlZGFpd3MiICwwMDAxIDoidHpzX3FvbSIgLDIgOiJneXRfaWpjYXppbGFlcl9zYXpjIiAsMDA0MjIgOiJ0enNfbmF0cyIgLDIuMTEgOiJvdHRlbl9hbmVjIiAsImVpbnpyb3dTIiA6ImFpcm9nZXRhayIgLCLEhWt6Y2Vsd2F6IHogMDLDmCDFhGV6cm93UyIgOiJhd3phbiIgLCIwMi1OSVAtVEIiIDoiZG9rInsgLH1lc2xhZiA6IjEzX293dGNlZGFpd3MiICwwMDAxIDoidHpzX3FvbSIgLDIgOiJneXRfaWpjYXppbGFlcl9zYXpjIiAsMDAwNTEgOiJ0enNfbmF0cyIgLDkuOCA6Im90dGVuX2FuZWMiICwiZWluenJvd1MiIDoiYWlyb2dldGFrIiAsIsSFa3pjZWx3YXogeiA2McOYIMWEZXpyb3dTIiA6ImF3emFuIiAsIjYxLU5JUC1UQiIgOiJkb2sieyAsfWVzbGFmIDoiMTNfb3d0Y2VkYWl3cyIgLDAwMSA6InR6c19xb20iICw1IDoiZ3l0X2lqY2F6aWxhZXJfc2F6YyIgLDAgOiJ0enNfbmF0cyIgLDAuMzkgOiJvdHRlbl9hbmVjIiAsInlub8WCc08iIDoiYWlyb2dldGFrIiAsImHFvHVkIGluZGHFgmtlenJwIGFub8WCc08iIDoiYXd6YW4iICwiOS1MU08tVEIiIDoiZG9rInsgLH1lc2xhZiA6IjEzX293dGNlZGFpd3MiICwwMDEgOiJ0enNfcW9tIiAsMyA6Imd5dF9pamNhemlsYWVyX3NhemMiICwwNDcgOiJ0enNfbmF0cyIgLDAuNjcgOiJvdHRlbl9hbmVjIiAsInlub8WCc08iIDoiYWlyb2dldGFrIiAsImluZGHFgmtlenJwIGFub8WCc08iIDoiYXd6YW4iICwiNy1MU08tVEIiIDoiZG9rInsgLH1lc2xhZiA6IjEzX293dGNlZGFpd3MiICwwMDEgOiJ0enNfcW9tIiAsMyA6Imd5dF9pamNhemlsYWVyX3NhemMiICwwMDkgOiJ0enNfbmF0cyIgLDAuMTYgOiJvdHRlbl9hbmVjIiAsInlub8WCc08iIDoiYWlyb2dldGFrIiAsImHFgmFtIGluZGHFgmtlenJwIGFub8WCc08iIDoiYXd6YW4iICwiNS1MU08tVEIiIDoiZG9rInsgLH1lc2xhZiA6IjEzX293dGNlZGFpd3MiICwwMDEgOiJ0enNfcW9tIiAsNCA6Imd5dF9pamNhemlsYWVyX3NhemMiICwwMTYgOiJ0enNfbmF0cyIgLDAuNDIxIDoib3R0ZW5fYW5lYyIgLCJpa2lucm9wc1ciIDoiYWlyb2dldGFrIiAsIm1tIDAwNCB5bmF3YXBzIGtpbnJvcHNXIiA6ImF3emFuIiAsIjAwNC1QU1ctVEIiIDoiZG9rInsgLH1lc2xhZiA6IjEzX293dGNlZGFpd3MiICwwMDIgOiJ0enNfcW9tIiAsMyA6Imd5dF9pamNhemlsYWVyX3NhemMiICwwODQxIDoidHpzX25hdHMiICw1Ljg5IDoib3R0ZW5fYW5lYyIgLCJpa2lucm9wc1ciIDoiYWlyb2dldGFrIiAsIm1tIDAwMyB5bmF3YXBzIGtpbnJvcHNXIiA6ImF3emFuIiAsIjAwMy1QU1ctVEIiIDoiZG9rInsgLH1lc2xhZiA6IjEzX293dGNlZGFpd3MiICwwMDIgOiJ0enNfcW9tIiAsMyA6Imd5dF9pamNhemlsYWVyX3NhemMiICwwMDEyIDoidHpzX25hdHMiICw1LjI3IDoib3R0ZW5fYW5lYyIgLCJpa2lucm9wc1ciIDoiYWlyb2dldGFrIiAsIm1tIDAwMiB5bmF3YXBzIGtpbnJvcHNXIiA6ImF3emFuIiAsIjAwMi1QU1ctVEIiIDoiZG9rInsgLH1ldXJ0IDoiMTNfb3d0Y2VkYWl3cyIgLDA1IDoidHpzX3FvbSIgLDggOiJneXRfaWpjYXppbGFlcl9zYXpjIiAsMCA6InR6c19uYXRzIiAsMC42NDIgOiJvdHRlbl9hbmVjIiAsImV0YWLEmXogYcWCb0siIDoiYWlyb2dldGFrIiAsIjQ9bSAsMDQ9eiBldGFixJl6IG/Fgm9LIiA6ImF3emFuIiAsIjAyLUJFWi1UQiIgOiJkb2sieyAsfWV1cnQgOiIxM19vd3RjZWRhaXdzIiAsMDAxIDoidHpzX3FvbSIgLDYgOiJneXRfaWpjYXppbGFlcl9zYXpjIiAsMDM4IDoidHpzX25hdHMiICwwLjg3MSA6Im90dGVuX2FuZWMiICwiZXRhYsSZeiBhxYJvSyIgOiJhaXJvZ2V0YWsiICwiMz1tICwyMz16IGV0YWLEmXogb8WCb0siIDoiYXd6YW4iICwiNjEtQkVaLVRCIiA6ImRvayJ7ICx9ZXVydCA6IjEzX293dGNlZGFpd3MiICwwNSA6InR6c19xb20iICw3IDoiZ3l0X2lqY2F6aWxhZXJfc2F6YyIgLDA0MyA6InR6c19uYXRzIiAsMC45ODEgOiJvdHRlbl9hbmVjIiAsImV0YWLEmXogYcWCb0siIDoiYWlyb2dldGFrIiAsImVuYXdvZmlsenMgLDM9bSAsNDI9eiBldGFixJl6IG/Fgm9LIiA6ImF3emFuIiAsIlMyMS1CRVotVEIiIDoiZG9rInsgLH1ldXJ0IDoiMTNfb3d0Y2VkYWl3cyIgLDAwMSA6InR6c19xb20iICw2IDoiZ3l0X2lqY2F6aWxhZXJfc2F6YyIgLDA1MjEgOiJ0enNfbmF0cyIgLDAuMjQxIDoib3R0ZW5fYW5lYyIgLCJldGFixJl6IGHFgm9LIiA6ImFpcm9nZXRhayIgLCIzPW0gLDQyPXogZXRhYsSZeiBvxYJvSyIgOiJhd3phbiIgLCIyMS1CRVotVEIiIDoiZG9rInsgLH1ldXJ0IDoiMTNfb3d0Y2VkYWl3cyIgLDAzIDoidHpzX3FvbSIgLDUgOiJneXRfaWpjYXppbGFlcl9zYXpjIiAsNTggOiJ0enNfbmF0cyIgLDAuMjczIDoib3R0ZW5fYW5lYyIgLCJ5xYJhVyIgOiJhaXJvZ2V0YWsiICwibW0gMDA5PUwgLDU1w5ggeXdvZMSZcGFuIMWCYVciIDoiYXd6YW4iICwiNTUtTEFXLVRCIiA6ImRvayJ7ICx9ZXVydCA6IjEzX293dGNlZGFpd3MiICwwMyA6InR6c19xb20iICw1IDoiZ3l0X2lqY2F6aWxhZXJfc2F6YyIgLDAyMSA6InR6c19uYXRzIiAsMC45ODIgOiJvdHRlbl9hbmVjIiAsInnFgmFXIiA6ImFpcm9nZXRhayIgLCJtbSAwMDg9TCAsMDXDmCB5d29kxJlwYW4gxYJhVyIgOiJhd3phbiIgLCIwNS1MQVctVEIiIDoiZG9rInsgLH1ldXJ0IDoiMTNfb3d0Y2VkYWl3cyIgLDA1IDoidHpzX3FvbSIgLDQgOiJneXRfaWpjYXppbGFlcl9zYXpjIiAsMDEzIDoidHpzX25hdHMiICwwLjYzMiA6Im90dGVuX2FuZWMiICwiecWCYVciIDoiYWlyb2dldGFrIiAsIm1tIDAwNz1MICw1NMOYIHl3b2TEmXBhbiDFgmFXIiA6ImF3emFuIiAsIjU0LUxBVy1UQiIgOiJkb2sieyAsfWV1cnQgOiIxM19vd3RjZWRhaXdzIiAsMDUgOiJ0enNfcW9tIiAsNSA6Imd5dF9pamNhemlsYWVyX3NhemMiICwwNTEgOiJ0enNfbmF0cyIgLDAuNDIyIDoib3R0ZW5fYW5lYyIgLCJ5xYJhVyIgOiJhaXJvZ2V0YWsiICwiZWluanlja3VkbmkgeW5hd290cmFoICxtbSAwMDY9TCAsMDTDmCB5d29kxJlwYW4gxYJhVyIgOiJhd3phbiIgLCJIMDQtTEFXLVRCIiA6ImRvayJ7ICx9ZXVydCA6IjEzX293dGNlZGFpd3MiICwwNSA6InR6c19xb20iICw0IDoiZ3l0X2lqY2F6aWxhZXJfc2F6YyIgLDA0NiA6InR6c19uYXRzIiAsMC44OTEgOiJvdHRlbl9hbmVjIiAsInnFgmFXIiA6ImFpcm9nZXRhayIgLCJtbSAwMDY9TCAsMDTDmCB5d29kxJlwYW4gxYJhVyIgOiJhd3phbiIgLCIwNC1MQVctVEIiIDoiZG9rIntbIDoieXRrdWRvcnAiICwiNjIwMiBkYXBvdHNpbCAsMSBpanNyZXcgdyBlbmFkIiA6InNpcG8ieyA6IjF2Ins=";
+</script>
+<script>
+/* BOBRTECH: Portal Klienta B2B (strona ćwiczeniowa do zadań z Playwright).
+ * Układ A: klasyczny portal (tabela, stronicowanie, osobna strona szczegółów).
+ * Układ B: nowy „Partner Hub” (karty, „Load more”, panel boczny z zakładkami, inne etykiety i formaty liczb).
+ * Tryb „losowy”: przy każdym wejściu losowy układ i losowe nazwy klas CSS.
+ * Ustawienia: config.json (uklad, dane, pozwol_na_parametr_url) lub ?uklad=B&dane=v2 w adresie.
+ */
+(async function () {
+  "use strict";
+
+  // ---------- dane ----------
+  function decode(s) {
+    const bytes = Uint8Array.from(atob(s), (c) => c.charCodeAt(0));
+    return JSON.parse(new TextDecoder().decode(bytes).split("").reverse().join(""));
+  }
+  const ALL = decode(window.__BT_DATA);
+
+  // ---------- konfiguracja ----------
+  let cfg = { uklad: "A", dane: "v1", pozwol_na_parametr_url: true };
+  if (window.__BT_CONFIG) cfg = Object.assign(cfg, window.__BT_CONFIG);
+  else try {
+    const r = await fetch("config.json", { cache: "no-store" });
+    if (r.ok) cfg = Object.assign(cfg, await r.json());
+  } catch (e) { /* plik otwarty lokalnie: zostają wartości domyślne */ }
+  const qs = new URLSearchParams(location.search);
+  if (cfg.pozwol_na_parametr_url) {
+    if (qs.get("uklad")) cfg.uklad = qs.get("uklad");
+    if (qs.get("dane")) cfg.dane = qs.get("dane");
+  }
+  const RANDOM = String(cfg.uklad).toLowerCase() === "losowy";
+  const LAYOUT = RANDOM ? (Math.random() < 0.5 ? "A" : "B") : (String(cfg.uklad).toUpperCase() === "B" ? "B" : "A");
+  const PRODUCTS = (ALL[cfg.dane] || ALL.v1).produkty;
+
+  // ---------- nazwy klas (losowe w trybie „losowy” albo zawsze w układzie B) ----------
+  const salt = Math.random().toString(36).slice(2, 7);
+  const scramble = RANDOM || LAYOUT === "B";
+  function cx(name) {
+    if (!scramble) return name;
+    let h = 0; const s = name + salt;
+    for (let i = 0; i < s.length; i++) h = (h * 31 + s.charCodeAt(i)) >>> 0;
+    return "c" + h.toString(36).slice(0, 6);
+  }
+  function id(name) { return scramble ? cx("id-" + name) : name; }
+
+  // ---------- sesja ----------
+  const mem = {};
+  function store(k, v) { try { if (v === undefined) return sessionStorage.getItem(k); sessionStorage.setItem(k, v); } catch (e) { if (v === undefined) return mem[k]; mem[k] = v; } }
+  const LOGIN = "demo", PASS = "bobr2026";
+
+  const app = document.getElementById("app");
+  app.className = "";
+  const odmiana = (n) => (n === 1 ? "produkt" : (n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? "produkty" : "produktów");
+  const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+  function addStyle(css) { const st = document.createElement("style"); st.textContent = css; document.head.appendChild(st); }
+
+  // =====================================================================================
+  // UKŁAD A: klasyczny portal
+  // =====================================================================================
+  function layoutA() {
+    const plPrice = (v) => v.toLocaleString("pl-PL", { minimumFractionDigits: 2, maximumFractionDigits: 2 }) + " zł";
+    addStyle(`
+      body{background:#eef1f5;color:#1d2733}
+      .${cx("top")}{background:#1d3557;color:#fff;padding:14px 24px;display:flex;justify-content:space-between;align-items:center}
+      .${cx("top")} b{font-size:20px}
+      .${cx("wrap")}{display:flex;min-height:calc(100vh - 56px)}
+      .${cx("side")}{width:210px;background:#fff;border-right:1px solid #d6dbe3;padding:16px}
+      .${cx("side")} a{display:block;padding:8px 6px;color:#1d3557;text-decoration:none}
+      .${cx("side")} a.${cx("dis")}{color:#9aa4b2;pointer-events:none}
+      .${cx("main")}{flex:1;padding:24px 32px}
+      .${cx("box")}{background:#fff;border:1px solid #d6dbe3;border-radius:6px;padding:20px;max-width:980px}
+      table{border-collapse:collapse;width:100%;margin-top:12px} th,td{border:1px solid #d6dbe3;padding:8px 10px;text-align:left}
+      th{background:#e3e9f2} tr:nth-child(even) td{background:#f8fafc}
+      label{display:block;margin:10px 0 4px} input,select{padding:7px;border:1px solid #b9c2cf;border-radius:4px;min-width:240px}
+      button{background:#1d3557;color:#fff;border:0;padding:9px 18px;border-radius:4px;cursor:pointer;margin-top:12px}
+      .${cx("info")}{background:#fff7d6;border:1px solid #e9d27a;padding:10px;margin-top:16px;border-radius:4px}
+      .${cx("err")}{color:#b3261e;margin-top:8px}
+      .${cx("pager")}{margin-top:14px;display:flex;gap:14px;align-items:center}
+      dl{display:grid;grid-template-columns:260px 1fr;gap:8px 12px} dt{font-weight:bold} dd{margin:0}
+    `);
+    function shell(inner) {
+      const logged = store("bt_login") === "1";
+      app.innerHTML = `<div class="${cx("top")}"><b>BOBRTECH</b><span>Portal Klienta B2B ${logged ? `| zalogowano: ${LOGIN} | <a style="color:#fff" href="#/wyloguj">Wyloguj</a>` : ""}</span></div>
+      <div class="${cx("wrap")}"><nav class="${cx("side")}"><a href="#/produkty">Katalog produktów</a><a class="${cx("dis")}" href="#">Zamówienia</a><a class="${cx("dis")}" href="#">Faktury</a><a class="${cx("dis")}" href="#">Reklamacje</a></nav>
+      <main class="${cx("main")}">${inner}</main></div>`;
+    }
+    function login() {
+      shell(`<div class="${cx("box")}" style="max-width:460px"><h1>Logowanie</h1>
+        <form id="${id("login-form")}"><label for="${id("username")}">Login</label><input id="${id("username")}" name="login" autocomplete="off">
+        <label for="${id("password")}">Hasło</label><input id="${id("password")}" type="password" name="haslo">
+        <div><button type="submit">Zaloguj</button></div><div class="${cx("err")}" id="${id("login-error")}"></div></form>
+        <div class="${cx("info")}">Konto testowe do ćwiczeń: login <b>demo</b>, hasło <b>bobr2026</b></div></div>`);
+      document.getElementById(id("login-form")).addEventListener("submit", (e) => {
+        e.preventDefault();
+        if (document.getElementById(id("username")).value.trim() === LOGIN && document.getElementById(id("password")).value === PASS) { store("bt_login", "1"); location.hash = "#/produkty"; }
+        else document.getElementById(id("login-error")).textContent = "Nieprawidłowy login lub hasło.";
+      });
+    }
+    function list(params) {
+      const cats = [...new Set(PRODUCTS.map((p) => p.kategoria))];
+      const kat = params.get("kat") || "";
+      const page = Math.max(1, parseInt(params.get("s") || "1", 10));
+      const items = PRODUCTS.filter((p) => !kat || p.kategoria === kat);
+      const per = 8, pages = Math.max(1, Math.ceil(items.length / per));
+      const rows = items.slice((page - 1) * per, page * per).map((p) => `<tr><td>${esc(p.kod)}</td><td>${esc(p.nazwa)}</td><td>${esc(p.kategoria)}</td><td>${plPrice(p.cena_netto)}</td>
+        <td><a class="${cx("details")}" href="#/produkt/${encodeURIComponent(p.kod)}">Szczegóły</a></td></tr>`).join("");
+      const link = (s) => `#/produkty?${new URLSearchParams(Object.assign(kat ? { kat } : {}, { s })).toString()}`;
+      shell(`<div class="${cx("box")}"><h1>Katalog produktów</h1><p>Znaleziono <b>${items.length}</b> ${odmiana(items.length)}.</p>
+        <label for="${id("category")}">Kategoria</label><select id="${id("category")}"><option value="">Wszystkie</option>${cats.map((c) => `<option ${c === kat ? "selected" : ""}>${esc(c)}</option>`).join("")}</select>
+        <table id="${id("product-table")}"><thead><tr><th>Kod</th><th>Nazwa</th><th>Kategoria</th><th>Cena netto</th><th>Akcje</th></tr></thead><tbody>${rows}</tbody></table>
+        <nav class="${cx("pager")}" aria-label="Stronicowanie">${page > 1 ? `<a href="${link(page - 1)}">« Poprzednia</a>` : `<span>« Poprzednia</span>`}
+        <span>Strona ${page} z ${pages}</span>${page < pages ? `<a id="${id("next-page")}" href="${link(page + 1)}">Następna »</a>` : `<span>Następna »</span>`}</nav></div>`);
+      document.getElementById(id("category")).addEventListener("change", (e) => { location.hash = "#/produkty" + (e.target.value ? "?kat=" + encodeURIComponent(e.target.value) : ""); });
+    }
+    function details(kod) {
+      const p = PRODUCTS.find((x) => x.kod === kod);
+      if (!p) return shell(`<div class="${cx("box")}"><h1>Nie znaleziono produktu</h1><a href="#/produkty">« Powrót do katalogu</a></div>`);
+      shell(`<div class="${cx("box")}"><a href="#/produkty">« Powrót do katalogu</a><h1>${esc(p.nazwa)}</h1>
+        <dl id="${id("product-details")}"><dt>Kod produktu</dt><dd>${esc(p.kod)}</dd><dt>Kategoria</dt><dd>${esc(p.kategoria)}</dd>
+        <dt>Cena netto</dt><dd>${plPrice(p.cena_netto)}</dd><dt>Stan magazynowy</dt><dd>${p.stan_szt.toLocaleString("pl-PL")} szt.</dd>
+        <dt>Czas realizacji</dt><dd>${p.czas_realizacji_tyg} tyg.</dd><dt>Minimalne zamówienie (MOQ)</dt><dd>${p.moq_szt.toLocaleString("pl-PL")} szt.</dd>
+        <dt>Świadectwo 3.1 (EN 10204)</dt><dd>${p.swiadectwo_31 ? "TAK" : "NIE"}</dd></dl></div>`);
+    }
+    function route() {
+      const h = location.hash || "#/";
+      if (h === "#/wyloguj") { store("bt_login", "0"); location.hash = "#/"; return; }
+      if (store("bt_login") !== "1") return login();
+      const [path, q] = h.slice(1).split("?");
+      if (path.startsWith("/produkt/")) return details(decodeURIComponent(path.slice(9)));
+      return list(new URLSearchParams(q || ""));
+    }
+    window.addEventListener("hashchange", route); route();
+  }
+
+  // =====================================================================================
+  // UKŁAD B: „Partner Hub” (inne etykiety, formaty, nawigacja i klasy)
+  // =====================================================================================
+  function layoutB() {
+    const EN = { "Wały": "Shafts", "Koła zębate": "Gears", "Wsporniki": "Brackets", "Osłony": "Covers", "Sworznie": "Pins", "Tuleje": "Bushings", "Ramy": "Frames" };
+    const usd = (v) => "PLN " + v.toLocaleString("en-US", { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+    addStyle(`
+      body{background:#0f1720;color:#e8edf3}
+      .${cx("bar")}{display:flex;justify-content:space-between;align-items:center;padding:18px 36px;border-bottom:1px solid #243244}
+      .${cx("logo")}{font-weight:800;letter-spacing:.5px;font-size:19px} .${cx("logo")} span{color:#38d39f}
+      .${cx("btn")}{background:#38d39f;color:#0f1720;border:0;border-radius:999px;padding:10px 20px;font-weight:700;cursor:pointer}
+      .${cx("ghost")}{background:transparent;color:#e8edf3;border:1px solid #3a4b61}
+      .${cx("hero")}{padding:70px 36px;max-width:900px} .${cx("hero")} h1{font-size:42px;margin:0 0 10px}
+      .${cx("chips")}{display:flex;gap:8px;flex-wrap:wrap;padding:18px 36px}
+      .${cx("chip")}{border:1px solid #3a4b61;border-radius:999px;padding:7px 14px;cursor:pointer;user-select:none}
+      .${cx("chip")}.${cx("on")}{background:#38d39f;color:#0f1720;border-color:#38d39f}
+      .${cx("grid")}{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:18px;padding:8px 36px 24px}
+      .${cx("card")}{background:#172231;border:1px solid #243244;border-radius:14px;padding:18px;cursor:pointer}
+      .${cx("card")}:hover{border-color:#38d39f} .${cx("card")} h3{margin:0 0 8px;font-size:17px}
+      .${cx("sku")}{color:#8fa3b8;font-size:13px} .${cx("price")}{font-size:22px;font-weight:800;margin-top:14px}
+      .${cx("more")}{padding:0 36px 40px;display:flex;gap:16px;align-items:center;color:#8fa3b8}
+      .${cx("modal")}{position:fixed;inset:0;background:rgba(0,0,0,.6);display:flex;align-items:center;justify-content:center}
+      .${cx("dlg")}{background:#172231;border-radius:16px;padding:28px;width:380px} .${cx("dlg")} input{width:100%;padding:10px;margin:6px 0 14px;border-radius:8px;border:1px solid #3a4b61;background:#0f1720;color:#fff}
+      .${cx("drawer")}{position:fixed;top:0;right:0;height:100%;width:440px;background:#172231;border-left:1px solid #243244;padding:28px;overflow:auto}
+      .${cx("tabs")}{display:flex;gap:6px;margin:18px 0} .${cx("tab")}{padding:8px 12px;border-radius:8px;cursor:pointer;background:#0f1720}
+      .${cx("tab")}.${cx("on")}{background:#38d39f;color:#0f1720}
+      .${cx("row")}{display:flex;justify-content:space-between;padding:10px 0;border-bottom:1px solid #243244}
+    `);
+    let filter = "", shown = 6, openKod = null, tab = "overview", modal = false;
+    const logged = () => store("bt_login") === "1";
+    function render() {
+      const top = `<div class="${cx("bar")}"><div class="${cx("logo")}">BOBRTECH <span>Partner Hub</span></div>
+        ${logged() ? `<button class="${cx("btn")} ${cx("ghost")}" data-a="out">Sign out</button>` : `<button class="${cx("btn")}" data-a="signin">Sign in</button>`}</div>`;
+      if (!logged()) {
+        app.innerHTML = top + `<section class="${cx("hero")}"><h1>Welcome, partner 👋</h1><p>Nowy portal partnerski BOBRTECH. Zaloguj się, aby zobaczyć ofertę, ceny i dostępność.</p></section>` +
+          (modal ? `<div class="${cx("modal")}"><div class="${cx("dlg")}"><h2>Sign in</h2><div>Identyfikator partnera</div><input data-f="u" autocomplete="off"><div>Kod dostępu</div><input data-f="p" type="password">
+          <button class="${cx("btn")}" data-a="go">Wejdź</button> <span data-f="err" style="color:#ff8a80"></span><p style="color:#8fa3b8;font-size:13px">Demo: demo / bobr2026</p></div></div>` : "");
+        return;
+      }
+      const cats = [...new Set(PRODUCTS.map((p) => p.kategoria))];
+      const items = PRODUCTS.filter((p) => !filter || p.kategoria === filter);
+      const cards = items.slice(0, shown).map((p) => `<div class="${cx("card")}" data-k="${esc(p.kod)}"><h3>${esc(p.nazwa)}</h3><div class="${cx("sku")}">SKU: ${esc(p.kod)} · ${EN[p.kategoria]}</div><div class="${cx("price")}">${usd(p.cena_netto)}</div></div>`).join("");
+      let drawer = "";
+      if (openKod) {
+        const p = PRODUCTS.find((x) => x.kod === openKod);
+        const body = tab === "overview" ? `<div class="${cx("row")}"><span>Price (net)</span><b>${usd(p.cena_netto)}</b></div><div class="${cx("row")}"><span>Category</span><b>${EN[p.kategoria]}</b></div><div class="${cx("row")}"><span>Min. order</span><b>${p.moq_szt.toLocaleString("en-US")} pcs</b></div>`
+          : tab === "stock" ? `<div class="${cx("row")}"><span>In stock</span><b>${p.stan_szt === 0 ? "out of stock" : p.stan_szt.toLocaleString("en-US") + " pcs"}</b></div><div class="${cx("row")}"><span>Lead time</span><b>${p.czas_realizacji_tyg} weeks</b></div>`
+          : `<div class="${cx("row")}"><span>EN 10204 3.1 certificate</span><b>${p.swiadectwo_31 ? "included" : "not available"}</b></div>`;
+        drawer = `<aside class="${cx("drawer")}"><button class="${cx("btn")} ${cx("ghost")}" data-a="close">✕</button><h2>${esc(p.nazwa)}</h2><div class="${cx("sku")}">SKU: ${esc(p.kod)}</div>
+          <div class="${cx("tabs")}">${[["overview", "Overview"], ["stock", "Availability"], ["docs", "Documents"]].map(([k, l]) => `<div class="${cx("tab")} ${tab === k ? cx("on") : ""}" data-t="${k}">${l}</div>`).join("")}</div>${body}</aside>`;
+      }
+      app.innerHTML = top + `<div class="${cx("chips")}"><div class="${cx("chip")} ${!filter ? cx("on") : ""}" data-c="">All</div>${cats.map((c) => `<div class="${cx("chip")} ${filter === c ? cx("on") : ""}" data-c="${esc(c)}">${EN[c]}</div>`).join("")}</div>
+        <div class="${cx("grid")}">${cards}</div><div class="${cx("more")}"><span>Showing ${Math.min(shown, items.length)} of ${items.length}</span>${shown < items.length ? `<button class="${cx("btn")}" data-a="more">Load more</button>` : ""}</div>${drawer}`;
+    }
+    app.addEventListener("click", (e) => {
+      const t = e.target.closest("[data-a],[data-k],[data-c],[data-t]"); if (!t) return;
+      if (t.dataset.a === "signin") { modal = true; render(); }
+      else if (t.dataset.a === "go") {
+        const u = app.querySelector('[data-f="u"]').value.trim(), p = app.querySelector('[data-f="p"]').value;
+        if (u === LOGIN && p === PASS) { store("bt_login", "1"); modal = false; render(); } else app.querySelector('[data-f="err"]').textContent = "Błędne dane";
+      }
+      else if (t.dataset.a === "out") { store("bt_login", "0"); render(); }
+      else if (t.dataset.a === "more") { shown += 6; render(); }
+      else if (t.dataset.a === "close") { openKod = null; render(); }
+      else if (t.dataset.c !== undefined) { filter = t.dataset.c; shown = 6; render(); }
+      else if (t.dataset.t) { tab = t.dataset.t; render(); }
+      else if (t.dataset.k) { openKod = t.dataset.k; tab = "overview"; render(); }
+    });
+    render();
+  }
+
+  if (LAYOUT === "A") layoutA(); else layoutB();
+})();
+
+</script>
+</body>
+</html>
