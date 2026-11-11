@@ -3,9 +3,22 @@
 Fikcyjny portal do ćwiczeń z automatyzacji przeglądarki (Playwright) na szkoleniu „Zarządzanie w erze AI”.
 Firma, produkty i ceny są zmyślone. Konto testowe: **demo / bobr2026**.
 
-| Wersja | Adres | Do czego |
-|---|---|---|
-| 1 | `/` | Zadanie 7: układ A (tabela, stronicowanie), dane v1 |
-| 2 | `/2/` | Zadanie 8: układ B (karty, „Load more”, panel z zakładkami), dane v2; działają parametry `?uklad=A`, `?uklad=B`, `?uklad=losowy` |
+- Portal: https://dawidml.github.io/bobrtech-portal/
+- Sprawdzanie wyniku: https://dawidml.github.io/bobrtech-portal/sprawdz.html
 
-Wynik ekstrakcji sprawdzisz na `sprawdz.html` w tym samym folderze co wersja portalu.
+## Przełączanie wersji (dla prowadzącego)
+
+1. Otwórz https://github.com/dawidml/bobrtech-portal/edit/main/config.json
+2. Zmień cyfrę przy `"wersja"`:
+
+| Wersja | Układ | Dane | Kiedy |
+|---|---|---|---|
+| 1 | A: tabela, stronicowanie, osobna strona szczegółów | v1, 24 produkty | Zadanie 7 |
+| 2 | B: karty, „Load more”, panel z zakładkami, etykiety po angielsku | v2, 26 produktów | Zadanie 8 |
+| 3 | losowy: A albo B przy każdym wejściu, losowe klasy CSS | v2, 26 produktów | Zadanie 8, wersja trudniejsza |
+
+3. Kliknij **Commit changes** i jeszcze raz **Commit changes** w okienku.
+
+Po ok. minucie portal i `sprawdz.html` działają w nowej wersji (odśwież stronę).
+Aktualną wersję widać pod adresem https://dawidml.github.io/bobrtech-portal/config.json.
+W wersjach 2 i 3 działają parametry w adresie: `?uklad=A`, `?uklad=B`, `?uklad=losowy`.
